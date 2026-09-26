@@ -1,0 +1,26 @@
+{
+  "name": "login-app",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare",
+    "lint": "eslint ."
+  },
+  "dependencies": {
+    "@nuxt/eslint": "^1.17.0",
+    "@nuxt/ui": "^2.22.3",
+    "eslint": "^10.11.0",
+    "nuxt": "^4.5.2",
+    "vue": "^3.5.43",
+    "vue-router": "^5.3.1",
+    "yup": "^1.7.1",
+    "zod": "^3.25.76"
+  },
+  "devDependencies": {
+    "vue-tsc": "^3.3.11"
+  }
+}
