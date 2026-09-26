@@ -10,6 +10,9 @@
     "postinstall": "nuxt prepare",
     "lint": "eslint ."
   },
+  "overrides": {
+    "rollup": "npm:@rollup/wasm-node"
+  },
   "dependencies": {
     "@nuxt/eslint": "^1.17.0",
     "@nuxt/ui": "^2.22.3",
